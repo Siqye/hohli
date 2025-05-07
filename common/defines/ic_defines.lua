@@ -409,6 +409,13 @@ NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = 0			-- penalty to org reg
 
 
 -- Navy
+NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 12
+
+-- raiding/convoys gameplay enhance
+NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 2
+NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.08
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.8
+
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 12	-- sub have 12 hours to hide again after being spotter (vanilla is 20)
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 12	-- the same thing, but the number or hours if sub started defencive combat
 NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 0
